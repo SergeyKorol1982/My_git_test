@@ -1,0 +1,52 @@
+1
+User@DESKTOP-S69N9CM MINGW64 /c/Intita/My_git_test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+User@DESKTOP-S69N9CM MINGW64 /c/Intita/My_git_test (main)
+$ git branch
+  branch1
+* main
+
+User@DESKTOP-S69N9CM MINGW64 /c/Intita/My_git_test (main)
+$ git log
+commit b46b351ba65e2aeb206b92edf0d4b307aaae1530 (HEAD -> main, origin/main)
+Author: SergeyKorol1982 <144817836+SergeyKorol1982@users.noreply.github.com>
+Date:   Sat Oct 14 14:08:25 2023 +0300
+
+    Create Newfile.txt
+
+    Add newfile.txt
+
+commit 04214c6e3112515086dfb2aad89292fd6cc4b94f
+Merge: c1b3830 0b8a28f
+Author: SergeyKorol1982 <giyuki@gmail.com>
+Date:   Sat Oct 14 14:01:32 2023 +0300
+
+    Solved conflict
+
+commit c1b3830c58e9f92084d0e13b6dc25edaad5173a7
+Author: SergeyKorol1982 <giyuki@gmail.com>
+Date:   Sat Oct 14 13:59:17 2023 +0300
+
+    Add change 2 in index.html
+
+commit 0b8a28fb19f05021126b1388443fa9c6e0df2e8e (origin/branch1, branch1)
+Author: SergeyKorol1982 <giyuki@gmail.com>
+Date:   Sat Oct 14 13:55:42 2023 +0300
+
+
+
+User@DESKTOP-S69N9CM MINGW64 /c/Intita/My_git_test (main)
+$ git log --merges
+commit 04214c6e3112515086dfb2aad89292fd6cc4b94f
+Merge: c1b3830 0b8a28f
+Author: SergeyKorol1982 <giyuki@gmail.com>
+Date:   Sat Oct 14 14:01:32 2023 +0300
+
+    Solved conflict
+
+
